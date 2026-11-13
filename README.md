@@ -344,7 +344,7 @@ HAVING
     COUNT(*) > 1;
 ```
 ### Output
-![Duplicate count check](assets/images/4_duplicate_records_check.png)
+![Duplicate count check](Assets/Images/Duplicate_count.png)
 
 # Visualization 
 
