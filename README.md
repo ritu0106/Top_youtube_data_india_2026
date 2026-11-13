@@ -294,7 +294,7 @@ WHERE
     TABLE_NAME = 'view_Top_Youtubers_India_2026'
 ```
 ### Output 
-![Column count](Assets/Images/Column%20count.png)
+![Column count](Assets/Images/column%20_count.png)
 
 
 
