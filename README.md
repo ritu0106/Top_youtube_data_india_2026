@@ -274,7 +274,7 @@ FROM
 
 ```
 
-![Row count check](assets/images/1_row_count_check.png)
+![Row count check](Assets/Images/Row%20count.png)
 
 
 
@@ -294,7 +294,7 @@ WHERE
     TABLE_NAME = 'view_Top_Youtubers_India_2026'
 ```
 ### Output 
-![Column count check](assets/images/2_column_count_check.png)
+![Column count](Assets/Images/Column%20count.png)
 
 
 
