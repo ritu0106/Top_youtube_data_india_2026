@@ -315,7 +315,8 @@ WHERE
     TABLE_NAME = 'view_Top_Youtubers_India_2026';
 ```
 ### Output
-![Data type check](Assets/Images/Data%20_type.png)
+
+![Data Type Check](./Assets/Images/Data_type.png)
 
 
 ## Duplicate count check
