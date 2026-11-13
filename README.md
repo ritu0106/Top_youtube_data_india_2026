@@ -353,7 +353,7 @@ HAVING
 
 - What does the dashboard look like?
 
-![GIF of Power BI Dashboard](Assets/Images/PowerBI_Dashboard.png (2).png)
+![Image of Power BI Dashboard](Assets/Images/PowerBI_Dashboard.png)
 
 This shows the Top India Youtubers in 2026 so far. 
 
