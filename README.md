@@ -4,6 +4,8 @@
 ![excel-to-powerbi-animated-diagram](assets/images/kaggle_to_powerbi.gif)
 
 
+
+
 # Table of contents 
 
 - [Objective](#objective)
@@ -482,11 +484,11 @@ Here are the key questions we need to answer for our marketing client:
 
 ### 4. Which 3 channels have the highest average views per video?
 
-| Channel Name | Averge Views per Video (M) |
-|--------------|-----------------|
-| Mark Ronson  | 32.27           |
-| Jessie J     | 5.97            |
-| Dua Lipa     | 5.76            |
+| Channel Name  | Averge Views per Video (M) |
+|---------------|-----------------|
+|ChuChu TV      | 53.06          |
+|Tips Official  | 5.63           |
+|ZeeMusicCompany| 5.33            |
 
 
 ### 5. Which 3 channels have the highest views per subscriber ratio?
@@ -523,27 +525,27 @@ Campaign idea = product placement
 
 1. T-Series
 - Average views per video = 13.20 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 13.20 million × 2% conversion rate = 264,000 units sold
-- Potential revenue per video = 264,000×$5 = $1,320,000
-- Campaign cost (one-time fee) = $50,000
-- **Net profit = $1,320,000 − $50,000 = $1,270,000**
+- Potential revenue per video = 264,000×5 = 1,320,000
+- Campaign cost (one-time fee) = 50,000
+- **Net profit = 1,320,000 − 50,000 = 1,270,000**
 
 b. SET India
 - Average views per video = 1.09 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 1.09 million × 2% conversion rate = 21,800 units sold
-- Potential revenue per video = 21,800 × $5 = $109,000
-- Campaign cost (one-time fee) = $50,000
-- **Net profit = $109,000 − $50,000 = $59,000**
+- Potential revenue per video = 21,800 × 5 = 109,000
+- Campaign cost (one-time fee) = 50,000
+- **Net profit = 109,000 − 50,000 = 59,000**
 
 c. Zee Music Company
 - Average views per video = 5.33 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 5.33 million × 2% conversion rate = 106,600 units sold
-- Potential revenue per video = 106,600 × $5 = $533,000
-- Campaign cost (one-time fee) = $50,000
-- **Net profit = $533,000 − $50,000 = $483,000**
+- Potential revenue per video = 106,600 × 5 = 533,000
+- Campaign cost (one-time fee) = 50,000
+- **Net profit = 533,000 − 50,000 = 483,000**
 
 
 Best option from category: T-Series
@@ -565,8 +567,8 @@ Best option from category: T-Series
 
 -- 1. 
 DECLARE @conversionRate FLOAT = 0.02;		-- The conversion rate @ 2%
-DECLARE @productCost FLOAT = 5.0;			-- The product cost @ $5
-DECLARE @campaignCost FLOAT = 50000.0;		-- The campaign cost @ $50,000	
+DECLARE @productCost FLOAT = 5.0;			-- The product cost @ 5
+DECLARE @campaignCost FLOAT = 50000.0;		-- The campaign cost @ 50,000	
 
 
 -- 2.  
@@ -615,30 +617,30 @@ Campaign idea = sponsored video series
 
 1. **T-Series**
 - Average views per video = 363.19 billion ÷ 275,713 = 1.32 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 1,317,276 × 2% conversion rate = 26,346 units sold
-- Potential revenue per video = 26,346 × $5 = $131,730
-- Total campaign revenue (11 videos) = $131,730 × 11 = $1,449,030
-- Campaign cost (11 videos × $5,000 each) = $55,000
-- **Net profit = $1,449,030 − $55,000 = $1,394,030**
+- Potential revenue per video = 26,346 × 5 = 131,730
+- Total campaign revenue (11 videos) = 131,730 × 11 = 1,449,030
+- Campaign cost (11 videos × 5,000 each) = 55,000
+- **Net profit = 1,449,030 − 55,000 = 1,394,030**
 
 b. **Zee TV**
 - Average views per video = 122.43 billion ÷ 226,313 = 0.54 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 540,976 × 2% conversion rate = 10,820 units sold
-- Potential revenue per video = 10,820 × $5 = $54,100
-- Total campaign revenue (11 videos) = $54,100 × 11 = $595,100
-- Campaign cost (11 videos × $5,000 each) = $55,000
-- **Net profit = $595,100 − $55,000 = $540,100**
+- Potential revenue per video = 10,820 × 5 = 54,100
+- Total campaign revenue (11 videos) = 54,100 × 11 = 595,100
+- Campaign cost (11 videos × 5,000 each) = 55,000
+- **Net profit = 595,100 − 55,000 = 540,100**
 
 b. **SET India**
 - Average views per video = 194.74 billion ÷ 178,569 = 1.09 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 1,090,558 × 2% conversion rate = 21,811 units sold
-- Potential revenue per video = 21,811 × $5 = $109,055
-- Total campaign revenue (11 videos) = $109,055 × 11 = $1,199,605
-- Campaign cost (11 videos × $5,000 each) = $55,000
-- **Net profit = $1,199,605 − $55,000 = $1,144,605**
+- Potential revenue per video = 21,811 × 5 = 109,055
+- Total campaign revenue (11 videos) = 109,055 × 11 = 1,199,605
+- Campaign cost (11 videos × 5,000 each) = 55,000
+- **Net profit = 1,199,605 − 55,000 = 1,144,605**
 
 
 Best option from category: Yogscast
@@ -656,8 +658,8 @@ Best option from category: Yogscast
 
 -- 1.
 DECLARE @conversionRate FLOAT = 0.02;           -- The conversion rate @ 2%
-DECLARE @productCost FLOAT = 5.0;               -- The product cost @ $5
-DECLARE @campaignCostPerVideo FLOAT = 5000.0;   -- The campaign cost per video @ $5,000
+DECLARE @productCost FLOAT = 5.0;               -- The product cost @ 5
+DECLARE @campaignCostPerVideo FLOAT = 5000.0;   -- The campaign cost per video @ 5,000
 DECLARE @numberOfVideos INT = 11;               -- The number of videos (11)
 
 
@@ -708,27 +710,27 @@ Campaign idea = Influencer marketing
 
 a. T-Series
 - Average views per video = 1.32 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 1.32 million × 2% conversion rate = 26,400 units sold
-- Potential revenue per video = 26,400 × $5 = $132,000
-- Campaign cost (3-month contract) = $130,000
-- **Net profit = $132,000 − $130,000 = $2,000**
+- Potential revenue per video = 26,400 × 5 = 132,000
+- Campaign cost (3-month contract) = 130,000
+- **Net profit = 132,000 − 130,000 = 2,000**
 
 b. SET India
 - Average views per video = 1.09 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 1.09 million × 2% conversion rate = 21,800 units sold
-- Potential revenue per video = 21,800 × $5 = $109,000
-- Campaign cost (3-month contract) = $130,000
-- **Net profit = $109,000 − $130,000 = -$21,000 (Potential Loss)**
+- Potential revenue per video = 21,800 × 5 = 109,000
+- Campaign cost (3-month contract) = 130,000
+- **Net profit = 109,000 − 130,000 = -21,000 (Potential Loss)**
 
 c. Zee Music Company
 - Average views per video = 5.33 million
-- Product cost = $5
+- Product cost = 5
 - Potential units sold per video = 5.33 million × 2% conversion rate = 106,600 units sold
-- Potential revenue per video = 106,600 × $5 = $533,000
-- Campaign cost (3-month contract) = $130,000
-- **Net profit = $533,000 − $130,000 = $403,000**
+- Potential revenue per video = 106,600 × 5 = 533,000
+- Campaign cost (3-month contract) = 130,000
+- **Net profit = 533,000 − 130,000 = 403,000**
 
 Best option from category: T-Series
 
@@ -748,8 +750,8 @@ Best option from category: T-Series
 
 -- 1.
 DECLARE @conversionRate FLOAT = 0.02;        -- The conversion rate @ 2%
-DECLARE @productCost MONEY = 5.0;            -- The product cost @ $5
-DECLARE @campaignCost MONEY = 130000.0;      -- The campaign cost @ $130,000
+DECLARE @productCost MONEY = 5.0;            -- The product cost @ 5
+DECLARE @campaignCost MONEY = 130000.0;      -- The campaign cost @ 130,000
 
 
 
